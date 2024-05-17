@@ -1,9 +1,12 @@
+# @ultroidxTeam 
+
+
 
 import pymongo, os
-from config import DB_URI, DB_NAME
+from config import DB_URL, DB_NAME
 
 
-dbclient = pymongo.MongoClient(DB_URI)
+dbclient = pymongo.MongoClient(DB_URL)
 database = dbclient[DB_NAME]
 
 
@@ -30,3 +33,8 @@ async def full_userbase():
 async def del_user(user_id: int):
     user_data.delete_one({'_id': user_id})
     return
+
+
+
+
+
