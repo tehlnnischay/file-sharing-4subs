@@ -24,7 +24,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002141441410")) #database id
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001935247305"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002113909424"))
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002067058871"))
-FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))
+FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002144760143"))
 
 
 SECONDS = int(os.getenv("SECONDS", "200")) # auto delete in seconds
